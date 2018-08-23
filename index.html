@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Chris Hollingworth</title>
+    <link rel="stylesheet" href="css/resume.css">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!--Load an icon library to show a hamburger menu (bars) on small screens-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+    <div id="email">
+        <img id="mail" src="images/mail.JPG" width="1.5%"/>
+        <a href="mailto:chr.holli@gmail.com">chr.holli@gmail.com</a>
+        <span class="floatR"><a href="https://www.google.com/maps/@43.1582244,-79.2925634,12.84z"/><img id="locate" src="images/location.JPG" height="1%"/>
+        Niagara, Ontario.&nbsp;</a>
+        <img id="phone" src="images/phone.JPG" width="1%"/>
+        <a href="tel:9056825194">905-682-5194</a></span>
+    </div>
+
+	<header id="home">
+            <h1 id="name">Chris Hollingworth</h1>
+            <div id="mugshot"></div>
+        <h2 id="tagline">
+			<em>UAV Pilot - Photography / Videography / Mapping</em>
+		</h2>
+    </header>
+    
+    <div class="topnav" id="myTopnav">
+            <a href="#email" class="active" onclick="shrink()">Home</a>
+            <a href="#skills" onclick="shrink()">Skills and Certificates</a>
+            <a href="#DronePhotography" onclick="shrink()">Recent Projects</a>
+            <a href="#aboutme" onclick="shrink()">About</a>
+            <a href="#email" id="remcontact">Contact</a>
+            <a href="mailto:chr.holli@gmail.com" class="contacts" onclick="shrink()"><img id="mail" src="images/mail.JPG" width="1.5%"/> chr.holli@gmail.com</a>
+            <a href="tel:9056825194" class="contacts" onclick="shrink()"><img id="phone" src="images/phone.JPG" width="1%"/>905-682-5194</a>
+            <a href="https://www.google.com/maps/@43.1582244,-79.2925634,12.84z" class="contacts" onclick="shrink()">Location: Niagara,ON</a>
+            <a href="javascript:void(0);" class="icon" onclick="shrink()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+		<!--
+		<nav id="mainnav" class="navbar">
+			<ul style="margin: 0; padding: 0; list-style-type: none;">
+                <li style="display: inline; padding: 3em 1em;">
+                    <a href="#mugshot" class="active">Home</a>
+				<li style="display: inline; padding: 3em 1em;">
+					<a href="#skills">Skills and Certificates</a>
+					<li style="display: inline;padding: 3em;">
+						<a href="#DronePhotography">Recent Projects</a>
+						<li style="display: inline;padding: 3em;">
+							<a href="#aboutme">About me</a>
+							<li style="display: inline;padding: 3em;">
+                                <a href="#Contact">Contact</a>
+                                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                        <i class="fa fa-bars"></i>
+                                      </a></li>
+			</ul>
+		</nav>
+    -->
+
+	<main>			
+		<div class="fc">
+		<article id="intro" class="text">
+            <header>
+                <h2>Safety First</h2>
+                <p>Safety is my priority and takes precedence over any other consideration, my mission is to 
+                        operate at the highest standards and comply with all regulations and obligations laid down by Transport Canada and my operations manual.<br>
+                        Thorough planning goes into every flight, including a pre-deployment survey, on-site survey, checking NOTAM's, sensitive locations and risk assessments.<br>
+                        Due to this I can proudly say I've completed over 100 professional flights without incident.
+                    <hr>
+                </p>
+                <h4 class="pad">Pilot Currency - Flight Logs</h4>
+            <iframe id="logbook" src='https://www.dronelogbook.com/widgets/stickerDashboard.php?token=47154' width='400' height='163' frameBorder='0' style='overflow:hidden;' marginheight='0' marginwidth='0'></iframe>
+            <hr>
+        
+            </header>
+			<header id="aboutme" class="section">
+				<h2>About me</h2>
+			</header>
+			<section class="text">
+				<p>From a young age I have been fascinated with technology, R/C cars and model planes were a big part of my childhood and similar hobby's continue to this day. 
+                        In my spare time you will find me building with arduino’s, coding or spending hours tweaking settings on my 3D printer. It was with no surprise then
+                        as drones grew in popularity I was quick to join the action. Since 2014 I’ve been flying drones, for the first couple of years it was only a hobby as I built 
+                        micro drones for indoor flying and faster 250 size drones for racing outdoors. <br> 
+                        From there I moved onto building more advanced and larger autonomous platforms for professional use.
+                </p>
+					
+			
+			</section>
+			<section class="text" class="section">
+				<header id="Whydrones">
+					<h3>Recently</h3>
+				</header>
+				<p>As a CAA approved drone pilot I have spent the last two years working in the U.K as Chief Pilot for Tomorrow's Forests. 
+                        Our main focus was investigating how drones could be implemented into the forestry and ecology industries to improve current practices such as stock density analysis,
+                        canopy closure, pest/disease tracking and wind-blow inspection among others. Along side offering aerial photo and videography services. <br>
+                        I have since returned to Canada and look forward to continuing work in the industry.</p>
+            </section>
+                        
+            
+            
+            
+        </article>
+		
+		       
+        				
+		<div class="industries text">
+				<section>
+					<header id="skills" class="section">
+					<h2>Certificates and Software</h2>
+                    </header>
+                    <div class="fcrow">
+                    <div id="cert"><img src="images/reccomendation.jpg" alt="drone icon" width="500px" height="600px"/></div>
+                    <div class="software">
+                            <h3>Drone Software</h3>
+                            <ul>
+                                <li><a href="http://ardupilot.org/planner/">Mission Planner</a></li>
+                                <li><a href="https://www.dji.com/goapp?www=&amp;www=v1">DJIgo4</a></li>
+                                <li><a href="https://www.dronedeploy.com/">Drone Deploy</a></li>
+                                <li><a href="https://flylitchi.com/">Litchi</a></li>
+                                <li><a href="https://www.google.com/earth/">Google Earth</a></li>
+                                <li><a href="https://www.blackmagicdesign.com/ca/products/davinciresolve/">Davinci Resolve</a></li>
+                                <li><a href="http://www.agisoft.com/">Adobe Photoscan</a></li>
+                                <li><a href="https://www.qgis.org/en/site/">Qgis</a></li>
+                            </ul>
+                            </div>                   
+                    <div id="cert"><img src="images/nqe.jpg" alt="drone icon" width="500px" height="600px"/></div>
+                    </div><hr>
+                    <h3>Relatable Skills &amp; Interests</h3>
+                    <div class="fcrow printing">
+                      <div class="gimbal"><div class="sketchfab-embed-wrapper"><iframe width="320" height="240" src="https://sketchfab.com/models/86b6b49839d24718ab8c7361b022cec5/embed?preload=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div></div>      
+                    <div  id="skills2">
+                    <ul>
+                        <li>3D Printing</li>
+                        <li><a href="https://www.sketchup.com/">3D Modeling - SketchUp</a></li>
+                        <li>Web Development - HTML/CSS/Javascript</li>
+                        <li>Photogrammetry</li>
+                        <li>Electronics</li>
+                        <li>Audio Production</li>
+                    </ul></div>
+                    <div class="gimbal">
+                            <img src="images/gimbal3.jpg" alt="drone icon" width="320" height="240"/></div>
+                    
+                    </div>    
+                </div>
+                    <hr>                   
+                    </div>
+				</section>
+            </div>
+                
+            <div class="industries2">
+                    <section class="text">
+                        <header id="DronePhotography" class="section">
+                            <h2>Recent projects</h2>
+                        </header>
+                        
+                        <p>
+                          This video was filmed across nine sites that have recently been turned from farm fields to natural habitats to mitigate ecological damage resulting from the UK's HS2 project,
+                          a national infrastructure railway project. The client specifically requested long slow shots as it is being used as a presentation backdrop.
+                        </p>
+                        <div class="iframe-container iframe-container-4x3">
+                        <iframe src="https://www.youtube.com/embed/a-h6aFxtjEY" width="50%" scrolling="yes" allowfullscreen></iframe>    
+                        </div>    
+                        <hr>
+                        <p class="pad">
+                            Marketing is important in any business, here I delivered a short video for social media use showcasing a recent woodland creation project.
+                        </p>
+                        <div class="iframe-container iframe-container-4x3">
+                            <iframe src="https://www.youtube.com/embed/j5T6TDjnKN4" allowfullscreen></iframe>
+                        </div>
+                    </section>
+                    <hr>
+                    <h3 class="pad">360&#176; Panoramas</h3>
+                    <iframe width="640" height="460" style="width: 70%; height: 640px; border: none;" frameborder="0" allow="vr,gyroscope,accelerometer,fullscreen" scrolling="no" allowfullscreen="true" style="max-width: 100%;" src="https://kuula.co/share/7PYLX?fs=1&vr=0&zoom=1&thumbs=1&margin=10&chromeless=0&logo=0&logosize=40"></iframe>
+                    <hr>
+                    <h3 class="pad">Orthomosaic and Digital Elevation models</h3>
+                    <p>GIS compatible files for client analysis</p>
+                    <div id="ortho"><img src="images/orthoJPG.jpg" alt="drone icon" width="500px"/>
+                        <img src="images/demJPG.jpg" alt="drone icon" width="500px"/>
+                    </div>
+                    <hr>
+                    <h3 class="pad">Keeping up with technology..</h3>
+                    <p class="text">Here a plug-in called Tensor flight was used to count trees using computer vision, even managing to differentiate between alive and dead trees.<br>
+                        Other uses could include counting crops, parked cars or windows in a building for insurance purposes.
+                        </p>
+                    <div><img src="images/tensor1.png" alt="drone icon" width="500px"/>
+                        <img src="images/tensor2.png" alt="drone icon" width="500px"/>
+                    </div>
+                </div>
+               
+				<footer id="footer">
+					<ul style= "margin: 0; padding: 0; list-style-type: none; ">
+						<li style= "display: inline; ">Website by Chris Hollingworth</li>
+				
+				</footer>
+			</main>
+        
+    </body>
+    <script src="js/resume.js"></script>
+</html>

@@ -1,0 +1,365 @@
+
+
+body, html {
+    font-size: 20px;
+    font-family: 'raleway','M PLUS Rounded 1c', sans-serif;
+    background-color:hsl(240, 20%, 96%);
+    margin: 0em;
+    font-weight: lighter;    
+    overflow: auto;
+}
+#email{
+    background-color: rgba(255, 255, 255, 0.781);
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    
+    }
+#mail{
+    float: left;
+    max-width: 100%;
+    height: auto;
+    min-width: 25px;
+    min-height: 20px;
+    padding-right: 1rem;
+}
+#tel{
+    
+    padding-right: 2rem;
+    max-width: 100%;
+    height: auto;
+    min-width: 20px;
+    min-height: 20px;    
+}
+.floatR{
+    float: right;
+}
+#locate{
+    
+    padding-left: 10em;
+    border:0;
+    padding-right: .65rem;
+    width: auto;
+    max-height: 50%;
+    height: 25px;
+}
+a {
+    text-decoration: none;
+    color: rgb(82, 75, 62);
+}
+#phone{
+    border: 0;
+    padding-right: 0.5rem;
+    min-width: 26px;
+    min-height: 20px;
+  
+}
+#home{
+    font-size: 2em;
+    color:rgb(82, 75, 62);
+    text-align: center;	    
+    background-color:rgba(255, 255, 255, 0.781);
+    background-blend-mode: soft-light;
+    background-size: 100%;
+    background-repeat:space;
+    background-position:center;
+    padding: 1em;
+    padding-top: 0.75em;
+}
+#myTopnav{
+    overflow: hidden;
+    font-size: .75em;
+    font-weight: lighter;
+    margin-top: none;
+    background-color:rgba(83, 76, 68, 0.95);
+    text-align:center;
+    border: 2px solid rgb(95, 90, 75);
+    }
+
+.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;}
+
+#mainnav ul li a{
+    text-decoration: none;
+    color: rgb(214, 201, 176);
+    padding: 1em 2em;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.25em;
+}
+#mainnav a:hover{
+    color: white;
+    text-shadow: 2px 2px 8px rgb(175, 149, 77);
+}
+#tagline{
+    font-size: .6em;
+    font-weight:lighter;
+    
+    }
+.pics{
+    display: block;
+    border: 3px solid black;
+    padding: none;
+    justify-content: center;
+    max-width: 500px;
+    }
+.industries{
+    margin: 0;
+    text-align: center;
+    background-color:rgb(219, 219, 219);
+    padding: 2em;
+}
+.industries2{
+    margin: 0;
+    text-align: center;
+    padding: 2em;
+}
+#intro{
+    margin: 2em;
+    text-align: center;
+    flex: 2;
+}
+#name{
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: .5em;
+    letter-spacing: 2px;
+    
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+#footer{
+    background-color:rgb(83, 77, 69);
+    padding: .70em;
+    margin-top: 0;
+    color: rgb(196, 193, 193);
+    font-weight: lighter;
+    text-align: center;
+}
+#footer a{
+    color: rgb(156, 156, 156);
+    font-weight: lighter;
+}
+.text{
+    line-height: 2;
+    text-align: center;
+}
+#vid{
+    display: block;
+     margin: 0 auto;
+     width: 100%    !important;
+     height: auto   !important;     
+    }
+    .iframe-container {
+        overflow: hidden;
+        padding-top: 56.25%;
+        position: relative;
+      }
+    .iframe-container iframe {
+        border: 0;
+        height: 75%;
+        left: 12%;
+        position: absolute;
+        top: 5%;
+        width: 75%;
+     }
+   
+    }
+
+.iframe-container-4x3 {
+    padding-top: 50%;
+  }
+
+.vidbg{
+    padding-bottom: 50px;
+    width: 75%;
+    padding-left: 12.5%;
+}
+video::-webkit-media-controls-overlay-play-button {
+    display: none;
+  }
+
+section img{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-style: double;
+}
+.gimbal{
+    margin:1em;
+    margin-left: 2em;
+    max-width: 320px;
+}
+/*#logbook{
+    margin-left:36%;
+}
+*/
+.fc{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.fcrow{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -1em;
+    justify-content: space-evenly;
+}
+.printing{
+    margin-top: 2em;
+}
+.fc > *{
+    flex: 1;
+    }
+.pad{
+    padding: 1.5em;
+}
+.software{
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    max-width: 100%;  
+    max-height: 600px;
+    height: auto;
+    padding: 1.5em;
+    line-height: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    text-align: left;
+}
+#software ul{
+    padding-left: 30px;
+}
+#software ul li a:hover{
+    color: rgb(228, 224, 18);
+}
+#skills2{
+    text-align: left;
+    max-width: 50%;
+    margin: 0;
+}
+h3{
+    text-align: center;
+}
+
+.section:target {
+    padding-top: 50px;
+}
+#cert{
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    background-size: cover;    
+    margin: 1em;
+    padding: 2px;
+    }
+
+#mugshot{
+    border: 3px solid black;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-image: url("../images/mugshot.jpg");
+    background-size: cover;
+    background-position-y: -20px;
+    margin: auto;
+}
+iframe{
+    margin-bottom: 2em;
+    
+}
+#ortho{
+    padding-bottom: 2em;
+}
+
+
+/*black background color to the top navigation */
+.topnav {
+    background-color: rgb(87, 79, 79);
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    
+    float: left;
+    display: block;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    padding: .75em 4em;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgba(221, 221, 221, 0.678);
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+  }
+.topnav .contacts{display: none;}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+  }
+
+/* When the screen is less than 965 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 965px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    #email{display: none;}
+    #remcontact{display: none;}
+    
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 965px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+ /* doubled up the previous css and added sticky as a class to it */
+ @media screen and (max-width: 965px) {
+    .topnav.responsive.sticky {position: fixed;}
+    .topnav.responsive.sticky a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive.sticky a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
