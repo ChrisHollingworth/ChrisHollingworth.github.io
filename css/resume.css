@@ -291,7 +291,7 @@ iframe{
     text-align: center;
     padding: .75em 4em;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1em;
 }
 
 /* Change the color of links on hover */
@@ -323,7 +323,7 @@ iframe{
   }
 
 /* When the screen is less than 965 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 70em) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -335,7 +335,7 @@ iframe{
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 1500px) {
+  @media screen and (max-width: 70em) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
