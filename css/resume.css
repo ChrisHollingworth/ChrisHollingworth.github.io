@@ -76,7 +76,7 @@ a {
     border: 2px solid rgb(95, 90, 75);
     }
 
-.sticky {
+.sticky{
         position: fixed;
         top: 0;
         width: 100%;}
@@ -166,7 +166,7 @@ a {
         width: 75%;
      }
    
-    }
+    
 
 .iframe-container-4x3 {
     padding-top: 50%;
@@ -323,7 +323,7 @@ iframe{
   }
 
 /* When the screen is less than 965 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 70em) {
+@media screen and (max-width: 80em) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -335,8 +335,8 @@ iframe{
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 70em) {
-    .topnav.responsive {position: relative;}
+  @media screen and (max-width: 80em) {
+    .topnav.responsive {position: relative; width: 100%;}
     .topnav.responsive a.icon {
       position: absolute;
       right: 0;
@@ -350,7 +350,7 @@ iframe{
   }
 
  /* doubled up the previous css and added sticky as a class to it */
- @media screen and (max-width: 965px) {
+ @media screen and (max-width: 80em) {
     .topnav.responsive.sticky {position: fixed;}
     .topnav.responsive.sticky a.icon {
       position: absolute;
