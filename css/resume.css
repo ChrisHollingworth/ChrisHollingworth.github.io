@@ -192,10 +192,7 @@ section img{
     margin-left: 2em;
     max-width: 320px;
 }
-/*#logbook{
-    margin-left:36%;
-}
-*/
+
 .fc{
     display: flex;
     flex-flow: column;
@@ -240,7 +237,7 @@ section img{
     text-align: left;
     max-width: 50%;
     margin: 0;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 h3{
     text-align: center;
